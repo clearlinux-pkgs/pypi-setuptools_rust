@@ -17,7 +17,7 @@ BuildRequires : buildreq-distutils3
 Provides: setuptools-rust
 Provides: setuptools-rust-python
 Provides: setuptools-rust-python3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(cffi)
 BuildRequires : pypi(semantic_version)
@@ -28,7 +28,7 @@ BuildRequires : pypi(typing_extensions)
 BuildRequires : pypi(wheel)
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 # Setuptools plugin for Rust extensions
