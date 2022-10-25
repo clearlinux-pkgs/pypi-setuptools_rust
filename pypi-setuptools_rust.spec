@@ -4,7 +4,7 @@
 #
 Name     : pypi-setuptools_rust
 Version  : 1.5.2
-Release  : 24
+Release  : 25
 URL      : https://files.pythonhosted.org/packages/99/db/e4ecb483ffa194d632ed44bda32cb740e564789fed7e56c2be8e2a0e2aa6/setuptools-rust-1.5.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/99/db/e4ecb483ffa194d632ed44bda32cb740e564789fed7e56c2be8e2a0e2aa6/setuptools-rust-1.5.2.tar.gz
 Summary  : Setuptools Rust extension plugin
