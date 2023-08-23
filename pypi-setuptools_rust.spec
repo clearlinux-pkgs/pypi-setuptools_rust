@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-setuptools_rust
-Version  : 1.6.0
-Release  : 28
-URL      : https://files.pythonhosted.org/packages/0e/c9/6f9de9f7a8404416d5d22484ccdeb138f469cc1e11bbd62a2bd26d5c1385/setuptools-rust-1.6.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/0e/c9/6f9de9f7a8404416d5d22484ccdeb138f469cc1e11bbd62a2bd26d5c1385/setuptools-rust-1.6.0.tar.gz
+Version  : 1.7.0
+Release  : 29
+URL      : https://files.pythonhosted.org/packages/90/f1/70b31cacce03bf21fa645d359d6303fb5590c1a02c41c7e2df1c480826b4/setuptools-rust-1.7.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/90/f1/70b31cacce03bf21fa645d359d6303fb5590c1a02c41c7e2df1c480826b4/setuptools-rust-1.7.0.tar.gz
 Summary  : Setuptools Rust extension plugin
 Group    : Development/Tools
 License  : MIT
@@ -17,6 +17,7 @@ Requires: pypi-setuptools_rust-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(setuptools_rust)
+BuildRequires : pypi(setuptools_scm)
 BuildRequires : pypi(wheel)
 # Suppress stripping binaries
 %define __strip /bin/true
@@ -62,10 +63,10 @@ python3 components for the pypi-setuptools_rust package.
 
 
 %prep
-%setup -q -n setuptools-rust-1.6.0
-cd %{_builddir}/setuptools-rust-1.6.0
+%setup -q -n setuptools-rust-1.7.0
+cd %{_builddir}/setuptools-rust-1.7.0
 pushd ..
-cp -a setuptools-rust-1.6.0 buildavx2
+cp -a setuptools-rust-1.7.0 buildavx2
 popd
 
 %build
@@ -73,7 +74,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1682974960
+export SOURCE_DATE_EPOCH=1692833830
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

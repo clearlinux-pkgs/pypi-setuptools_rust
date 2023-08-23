@@ -1,5 +1,5 @@
 PKG_NAME := pypi-setuptools_rust
-URL = https://files.pythonhosted.org/packages/0e/c9/6f9de9f7a8404416d5d22484ccdeb138f469cc1e11bbd62a2bd26d5c1385/setuptools-rust-1.6.0.tar.gz
+URL = https://files.pythonhosted.org/packages/90/f1/70b31cacce03bf21fa645d359d6303fb5590c1a02c41c7e2df1c480826b4/setuptools-rust-1.7.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
