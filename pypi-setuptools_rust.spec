@@ -6,10 +6,10 @@
 # autospec commit: 250a666
 #
 Name     : pypi-setuptools_rust
-Version  : 1.8.0
-Release  : 32
-URL      : https://files.pythonhosted.org/packages/5c/70/ebdd0f6ec81cbbb696f8e9d40d41215e912b91132bae3f2232404c582b3a/setuptools-rust-1.8.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/5c/70/ebdd0f6ec81cbbb696f8e9d40d41215e912b91132bae3f2232404c582b3a/setuptools-rust-1.8.0.tar.gz
+Version  : 1.8.1
+Release  : 33
+URL      : https://files.pythonhosted.org/packages/f2/40/f1e9fedb88462248e94ea4383cda0065111582a4d5a32ca84acf60ab1107/setuptools-rust-1.8.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/f2/40/f1e9fedb88462248e94ea4383cda0065111582a4d5a32ca84acf60ab1107/setuptools-rust-1.8.1.tar.gz
 Summary  : Setuptools Rust extension plugin
 Group    : Development/Tools
 License  : MIT
@@ -64,10 +64,10 @@ python3 components for the pypi-setuptools_rust package.
 
 
 %prep
-%setup -q -n setuptools-rust-1.8.0
-cd %{_builddir}/setuptools-rust-1.8.0
+%setup -q -n setuptools-rust-1.8.1
+cd %{_builddir}/setuptools-rust-1.8.1
 pushd ..
-cp -a setuptools-rust-1.8.0 buildavx2
+cp -a setuptools-rust-1.8.1 buildavx2
 popd
 
 %build
@@ -75,7 +75,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1698332431
+export SOURCE_DATE_EPOCH=1698700316
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
