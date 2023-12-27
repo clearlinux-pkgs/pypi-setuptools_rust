@@ -7,7 +7,7 @@
 #
 Name     : pypi-setuptools_rust
 Version  : 1.8.1
-Release  : 33
+Release  : 34
 URL      : https://files.pythonhosted.org/packages/f2/40/f1e9fedb88462248e94ea4383cda0065111582a4d5a32ca84acf60ab1107/setuptools-rust-1.8.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f2/40/f1e9fedb88462248e94ea4383cda0065111582a4d5a32ca84acf60ab1107/setuptools-rust-1.8.1.tar.gz
 Summary  : Setuptools Rust extension plugin
